@@ -9,8 +9,7 @@ const { notFound, errorHandler } = require("./midlleware/errorMIddleware");
 require('dotenv').config({path:'/React/chat/server/backend/.env'})
 const cors = require('cors')
 
-app.use(cors())
-app.options('*', cors())
+
 
 const PORT = process.env.PORT || 5000
 
@@ -21,7 +20,8 @@ connectDB();
 
 
 const app = express();
-
+app.use(cors())
+app.options('*', cors())
 // принимаем от фронта json
 app.use(express.json());
 
