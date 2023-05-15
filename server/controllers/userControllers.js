@@ -71,4 +71,9 @@ const allUsers = asyncHandler(async (req,res) =>
     res.send(users);
 });
 
-module.exports={registerUser, authUser,allUsers};
+const healthCheck =  asyncHandler(async (req,res) =>
+{
+    return res.status(200).json({message: "sucess"})
+})
+
+module.exports={registerUser, authUser,allUsers,healthCheck};
