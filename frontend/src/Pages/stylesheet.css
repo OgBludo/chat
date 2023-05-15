@@ -1,0 +1,44 @@
+.Tbox
+{
+    
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 3;
+    background: white;
+    width: 100%;
+    margin: 40px 0px 15px 0;
+    border-radius: 20px;
+    border-width: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    font-size: 25px;
+}
+.Bbox
+{
+    background: white;
+    width: 100%;
+    padding: 4;
+    border-radius: 20px;
+    border-width: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.TL
+{
+    margin: 1em;
+}
+.tab
+{
+    width: 50%;
+}
+.CBox
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 91.5vh;
+    padding: 10px;
+}

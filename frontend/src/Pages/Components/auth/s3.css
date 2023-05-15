@@ -1,0 +1,14 @@
+.messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.scspan
+{
+    margin-top: 15px;
+    font-family: 'Oswald';
+    border-radius: 20px;
+    padding: 5px 15px;
+    max-width: 75%;
+}

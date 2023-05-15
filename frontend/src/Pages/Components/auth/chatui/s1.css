@@ -1,0 +1,182 @@
+.SDBox
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: aqua;
+    width: 99%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    -webkit-box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    -moz-box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    font-family: 'Oswald',sans-serif;
+    text-shadow: 3px 3px 10px #383831;
+}
+.SDText
+{
+    font-size: 25px;
+    padding-bottom: 5px;
+
+}
+.MRCicon
+{
+   margin-right: 10px;
+    transform: scale(1.1);
+}
+.SDMenuB
+{
+    margin-bottom: 3px;
+}
+.rb
+{
+    display: flex;
+}
+.MDheader
+{
+    font-size: 40px;
+    font-family: 'Oswald',sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald',sans-serif;
+}
+.Mbody
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divMbody
+{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+}
+
+.bgpic
+{
+    height:200px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    -moz-box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+}
+.fgpic
+{
+    margin: auto;
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    Border: 3px solid white;
+    object-fit: cover;
+    top:200px;
+    -webkit-box-shadow: 0px 0px 18px 7px rgba(60, 0, 255, 1);
+-moz-box-shadow: 0px 0px 18px 7px rgba(60, 0, 255, 1);
+box-shadow: 0px 0px 18px 7px rgba(60, 0, 255, 1);
+    
+}
+.Userinf
+{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald',sans-serif;
+    font-size: 25px;
+    background: rgb(77,64,219);
+    background: linear-gradient(90deg, rgba(77,64,219,1) 0%, rgba(203,18,18,1) 48%, rgba(234,131,57,1) 100%);
+    height: 200px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    -moz-box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+    box-shadow: 0px 0px 28px 10px rgba(127, 0, 157, 1);
+}
+.mcbox
+{
+    padding-top: 20px;
+   flex-direction: column;
+   align-items: center;
+   padding: 3;
+    background: white;
+   border-radius: 5px;
+   border-width: 0px;
+   height: 100%;
+   -webkit-box-shadow: 0px 0px 33px 2px rgba(24, 57, 225, 0.56) ;
+   -moz-box-shadow: 0px 0px 33px 2px rgba(24, 57, 225, 0.56) ;
+   box-shadow: 0px 0px 33px 2px rgba(24, 57, 225, 0.56) ;
+   text-shadow:rgb(45, 50, 54) -1px 2px 6px;
+   
+}
+
+.mcbox2
+{
+    
+    padding-bottom: 3;
+    padding-left: 3;
+    padding-right: 3;
+    font-family: 'Oswald',sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.mcbutton
+{
+    font-size: 25px;
+    font-weight: lighter;
+    text-shadow:rgb(45, 50, 54) -1px 2px 6px;
+}
+.mcicon{
+    transform: scale(1.2);
+    margin-top:5px ;
+    margin-left: 5px;
+}
+.mcbox3{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background: none;
+    width: 92%;
+    border-radius: 5px;
+    overflow-y: hidden;
+    font-size: 18px;
+}
+
+.gcmheader
+{
+    font-family: 'Oswald',sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.gcmbody
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gcmbbox
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.cbox{
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border-width: 2px;
+    text-shadow:rgb(45, 50, 54) -1px 2px 6px;
+    -webkit-box-shadow: 0px 0px 33px 2px rgba(24, 57, 225, 0.56) ;
+   -moz-box-shadow: 0px 0px 33px 2px rgba(24, 57, 225, 0.56) ;
+   box-shadow: 0px 0px 33px 2px rgba(24, 57, 225, 0.56) ;
+}
