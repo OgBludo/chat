@@ -10,7 +10,7 @@ import './s3.css'
 import ScrollableChat from '../ScrollableChat';
 import io from 'socket.io-client'
 
-const ENDPOINT = "http://localhost:5000"
+const ENDPOINT = "https://org-chat-api.onrender.com"
 var socket,selectedChatCompare;
 
 function SingleChat({fetchAgain,setFetchAgain}) {
