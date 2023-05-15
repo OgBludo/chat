@@ -7,6 +7,10 @@ const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 const { notFound, errorHandler } = require("./midlleware/errorMIddleware");
 require('dotenv').config({path:'/React/chat/server/backend/.env'})
+const cors = require('cors')
+
+app.use(cors())
+app.options('*', cors())
 
 const PORT = process.env.PORT || 5000
 
